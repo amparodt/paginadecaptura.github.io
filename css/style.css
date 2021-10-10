@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url("/img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.principal{
+    width: 450px;
+    text-align: center;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.logo{
+    width: 90px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+h1{
+    margin-bottom: 5px;
+}
+
+h2{
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+h3{
+   margin-bottom: 10px;
+}
+
+.caixadetexto{    
+    width: 100%;
+    height: 30px;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.receberinfo{
+    margin-top: 2px;
+    display: flex;
+    text-align: center;
+}
+
+.textaceito{
+    margin-left: 5px;
+    font-size: 11px;
+    text-align: center;
+  
+}
+
+.check{
+    margin-top: 2px;
+    margin-left: 2px;
+    color: rgb(82, 126, 245);
+    margin-right: 2px;
+}
+
+.botao{
+
+    width: 100%;
+    height: 30px;
+    color: white;
+    background-color: rgb(82, 126, 245);
+    border-radius: 5px;
+    border: 1px solid rgb(82, 126, 245);
+}
